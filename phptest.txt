@@ -1,0 +1,14 @@
+<?php
+header("Content-type: text/html; charset=utf-8");
+$dishname=$_POST['dishname'];
+$dishtype=$_POST['characters'];
+$number=$_POST['number'];
+$date=$_POST['date'];
+$comments=$_POST['comments'];
+echo"dishname:".$dishname."<br>";
+echo"dishtype:".$dishtype."<br>";
+echo"number:".$number."<br>";
+echo"date:".$date."<br>";
+echo"comments:".$comments."<br>";
+echo "<a href='index.html'>返回<br></a>";
+?>
