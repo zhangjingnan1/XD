@@ -1,0 +1,84 @@
+body{
+font-size:small;
+font-family:Verdana,Helvetica,Arial,sans-serif;
+background-image:url(pictures/coffee.jpg);
+}
+
+h1,h2{
+font-family: sans-serif;
+color:gray;
+}
+
+h1{
+border-bottom:1px solid black;
+text-align:center;
+color:maroon;
+}
+
+#box1{
+border-color:black;
+border-width:1px;
+border-style:dashed;
+border-radius:15px;
+background-color:#a7cece;
+color:black;
+padding:25px;
+padding-left:100px;
+margin:30px;
+margin-left:300px;
+margin-right:600px;
+background-image:url(pictures/choiceboxbackground.jpg);
+}
+
+#tips1{
+border-color:#007e7e;
+border-width:thin;
+border-style:solid;
+width:150px;
+padding-right:20px;
+padding-top:50px;
+padding-bottom:150px;
+padding-left:20px;
+margin-right:400px;
+margin-top:35px;
+text-align:center;
+line-height:1;
+float:right;
+}
+#tips1 h2{
+color:black;
+}
+#tips1 a:link{
+color:#007e7e;
+}
+#tips1 a:visited{
+color:#333333;
+}
+#tips1 a:hover{
+bcakground:#f88396;
+color:#0d5353;
+}
+#footer{
+background-color:#675c47;
+color:#efe5d0;
+text-align:center;
+padding:15px;
+margin:10px;
+font-size:90%;
+clear:right;
+}
+ul{
+background-color:#efe5d0;
+margin:10px 10px 0px 10px;
+list-style-type:none;
+padding:5px 0px 5px 0px;
+}
+ul li{
+display:inline;
+padding:5px 10px 5px 10px;
+}
+ul li a:link,ul li a:visited{
+color:#954b4b;
+border-bottom:none;
+font-weight;
+}
