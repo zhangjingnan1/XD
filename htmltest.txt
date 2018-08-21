@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>工大餐饮管理系统</title>
+<link type="text/css" rel="stylesheet" href="bjuteat.css">
+</head>
+<body>
+
+<h1>
+工大餐饮管理系统<br>
+</h1>
+
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="">A</a></li>
+<li><a href="">B</a></li>
+<li><a href="">C</a></li>
+<li><a href="">D</a></li>
+</ul>
+
+<div id="tips1">
+<p>
+<img src="pictures/computer.png" alt="mark1">
+</p>
+<h2>
+just for test1
+</h2>
+<p>
+there can be occupied.
+</p>
+</div>
+
+<div id="box1">
+<form action="http://bjuteat.com/index.php" method="POST">
+<p>
+Please enter your information (and click submit) to enter the contest<br><br>
+dish name: <input type="text" name="dishname" value=""><br><br>
+dish type:<select name="characters">
+<option value="meat">meat</option>
+<option value="vegetable">vegetable</option>
+<option value="others">others</option>
+</select><br><br>
+Please choose the number
+<input type="radio" name="number" value="one">
+<input type="radio" name="number" value="two">
+<br><br>
+Please choose the date<br>
+<input type="date" name="date"><br>
+Customer feedback<br>
+<textarea name="comments" rows="10" cols="48"></textarea><br><br>
+<input type="submit">
+</p>
+</form>
+</div>
+
+<div id="footer">
+&copy; 2018, 工大餐饮助手
+<br>
+All trademarks and registered trademarks appearing on
+this site are the property of their respective owners.
+</div>
+</body>
+</html>
